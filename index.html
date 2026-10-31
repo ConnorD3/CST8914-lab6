@@ -41,10 +41,11 @@
 			</div>
 		</div>
 	</header>
-	<nav>
+	
 		<div id="wb-sm" data-ajax-replace="../ajax/cdtsMenu-en.html" data-trgt="mb-pnl"
 			class="wb-menu visible-md visible-lg wb-init wb-data-ajax-replace-inited wb-menu-inited wb-navcurr-inited"
 			typeof="SiteNavigationElement">
+			<nav>
 			<div class="pnl-strt container nvbar">
 				<h2>Topics menu</h2>
 				<div class="row">
@@ -63,9 +64,9 @@
 				</div>
 			</div>
 
-
+			</nav>
 		</div> <!-- end of main navigation-->
-	</nav>
+	
 	</div> <!-- end of header-->
 
 	<main property="mainContentOfPage" class="container">
@@ -125,7 +126,7 @@
 		<h6><strong>More Resources on How to Choose the Right Agent</strong></h6>
 		<div class="row">
 			<div class="col-md-4 ">
-				<img style="padding-right: 60px;" src="./1.png">
+				<img style="padding-right: 100%;" src="./1.png">
 				<a href="https://connord3.github.io/CST8914-lab6/"><strong>What Are The Risks of Selling a Home Yourself?</strong></a>
 				<p>We’ve all seen the videos, read the stories, and gasped at the images of people who thought they could conquer a project that would have been better left to the professionals. </p>
 				<p>Read More</p>
@@ -155,8 +156,8 @@
 
 
 	</main>
-	<footer>
 	<div id="wb-info" class=" wb-navcurr-inited">
+		<footer>
 		<div class="gc-sub-footer">
 			<div class="container d-flex align-items-center">
 				<div>
@@ -179,8 +180,9 @@
 
 			</div>
 		</div>
+		</footer>	
 	</div> <!-- end of footer-->
-	</footer>
+	
 	<script>
 		var defFooter = document.getElementById("def-footer");
 		defFooter.outerHTML = wet.builder.appFooter({
